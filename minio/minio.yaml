@@ -48,7 +48,7 @@ spec:
   template:
     metadata:
       labels:
-        app: minio
+        app.kubernetes.io/name: minio
     spec:
       volumes:
         - name: minio-storage
